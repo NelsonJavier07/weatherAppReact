@@ -4,8 +4,10 @@ import { WeatherApp } from "./WeatherApp/WeatherApp"
 function App() {
   
   return (
-    <WeatherApp />
-  )
+    <div className="container">
+      <WeatherApp />
+    </div>
+  );
 }
 
 export default App
